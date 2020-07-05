@@ -1,5 +1,5 @@
 # shopping-api
-API feita em SpringBoot para apresentação de um teste.
+API feita em Java para apresentação de um teste.
 
 
 # Resumo e Status 
