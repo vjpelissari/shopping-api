@@ -3,7 +3,7 @@ API feita em Java para apresentação de um teste.
 
 
 # Resumo e Status 
-A aplicação consiste em fazer uma API para simular uma loja virtual e deve ter:
+A aplicação consiste em fazer uma API para simular uma loja virtual e deve conter:
 
 - Cadastro dos clientes - OK
 - Cadastro dos produtos - OK
