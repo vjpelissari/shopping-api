@@ -20,22 +20,22 @@ public class ClientesServices {
 		return autoresRepository.findAll();
 	}	
 	
-	public Cliente salvar(Cliente autor) {
-		if(autor.getId() != null) {
-			Cliente a = autoresRepository.findById(autor.getId()).orElse(null);
+	public Cliente salvar(Cliente cliente) {
+		if(cliente.getId() != null) {
+			Cliente a = autoresRepository.findById(cliente.getId()).orElse(null);
 			if(a != null) {
 				throw new ClienteExistenteException("O autor já existe.");
 			}
 		}
-		return autoresRepository.save(autor);
+		return autoresRepository.save(cliente);
 	}
 	
 	public Cliente buscar(Long id) {
-		Cliente autor = autoresRepository.findById(id).orElse(null);
+		Cliente cliente = autoresRepository.findById(id).orElse(null);
 		
-		if(autor == null) {
+		if(cliente == null) {
 			throw new ClienteNaoEncontradoException("O autor não pôde ser encontrado.");
 		}
-		return autor;
+		return cliente;
 	}
 }
