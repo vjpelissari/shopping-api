@@ -5,9 +5,9 @@ API feita em Java para apresentação de um teste.
 # Resumo e Status 
 A aplicação consiste em fazer uma API para simular uma loja virtual e deve ter:
 
-- Cadastro dos clientes .... OK
-- Cadastro dos produtos .... OK
-- Cadastro dos pedidos ..... Em andamento.
+- Cadastro dos clientes - OK
+- Cadastro dos produtos - OK
+- Cadastro dos pedidos - Em andamento.
 
 
 # Tecnologias e frameworks utilizados
