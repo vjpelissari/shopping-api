@@ -34,31 +34,16 @@ A aplicação consiste em fazer uma API para simular uma loja virtual e deve con
   Para controle de versão.
 
 
-# Explicação dos pacotes criados:
+# Pacotes criados:
 
 - com.jantorno.shopping:
-  contem a classe de inicial para iniciar a execução do projeto.
-
-- com.jantorno.shopping.config:
-  contem a classe com a configuração das regras de autenticação (utilizado o Spring Security)
-
-- com.jantorno.shopping.domain:
-  pacote que contem as classes de model da aplicação (Cliente, Produto).
- 
-- com.jantorno.shopping.handler:
-  contem uma classe handler responsável por detalhar o erro de uma forma amigável para o usuário da api, de acordo com a exption lançada.
-
-- com.jantorno.shopping.repository:
-  pacote que contem o padrão Repository para realizar a persistencia com o banco de dados.
-
-- com.jantorno.shopping.resources:
-  contem os controllers da aplicação, responsaveis pelo mapeamento dos recursos da API.
-
-- com.jantorno.shopping.services:
-  classes que contem a regra de negócio da aplicação
-
-- com.jantorno.shopping.services.exceptions:
-  classes de exceptions.
+- com.jantorno.shopping.config
+- com.jantorno.shopping.domain
+- com.jantorno.shopping.handler
+- com.jantorno.shopping.repository
+- com.jantorno.shopping.resources
+- com.jantorno.shopping.services
+- com.jantorno.shopping.services.exceptions
 
 
 # Exemplos de Endpoints da API
